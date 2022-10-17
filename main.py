@@ -67,13 +67,12 @@ def choice_char_class():
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
-        char_class = input(
-            'Введи название персонажа, за которого хочешь играть: '
-            'Воитель — warrior, Маг — mage, Лекарь — healer: ')
+        char_class = input('Введи название персонажа, '
+                           'за которого хочешь играть: Воитель — warrior, '
+                           'Маг — mage, Лекарь — healer: ')
         if char_class == 'warrior':
-            print(
-                'Воитель — дерзкий воин ближнего боя. '
-                'Сильный, выносливый и отважный.')
+            print('Воитель — дерзкий воин ближнего боя. '
+                  'Сильный, выносливый и отважный.')
         if char_class == 'mage':
             print(
                 'Маг — находчивый воин дальнего боя. '
